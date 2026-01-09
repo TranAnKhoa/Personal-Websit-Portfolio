@@ -20,14 +20,17 @@ The platform serves a dual purpose:
 
 | Home Page | Course Marketplace |
 | :---: | :---: |
-| ![Home UI](![5f4d60a4-1ce1-4898-8d48-9a18988d622e (1)](https://github.com/user-attachments/assets/a90f69ac-e527-4975-bb50-6edd942d5e09)) | ![Cart UI](<img width="1638" height="817" alt="image" src="https://github.com/user-attachments/assets/63c99aaf-c9cc-4369-8fd1-f99ae30044f0" />
+| ![Home UI](![5f4d60a4-1ce1-4898-8d48-9a18988d622e (1)](https://github.com/user-attachments/assets/a90f69ac-e527-4975-bb50-6edd942d5e09)) | ![Cart UI](
+![a7d0eaeb-6033-4f51-ba7e-769340eb11cd](https://github.com/user-attachments/assets/7b9c6240-5ff3-48c8-a25a-c9af0dffd5bb)
 ) |
 
 
 | Scientific Publications | Biography & details |
 | :---: | :---: |
-| ![Contact UI](<img width="930" height="773" alt="image" src="https://github.com/user-attachments/assets/55851c21-533d-4100-8c27-7388273a7914" />
-) | ![Bio UI](<img width="1455" height="783" alt="image" src="https://github.com/user-attachments/assets/66b0ec01-9024-457a-88a5-1afcdf114f79" />
+| ![Contact UI](![14cf44b9-7671-4e23-841c-b0ff42be3492](https://github.com/user-attachments/assets/dd46b6b9-3d29-44b5-9ac0-4927a11b17df)
+
+) | ![Bio UI](![f17eab0f-4858-4935-9581-2a9945142bad](https://github.com/user-attachments/assets/315c185a-a05c-4ed4-96f5-daa9fd39809d)
+
 ) |
 
 **Demo Video**
