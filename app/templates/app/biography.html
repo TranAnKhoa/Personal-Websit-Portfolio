@@ -1,0 +1,155 @@
+{% extends "app/base.html" %}
+{%load static%}
+{% block biography_content %}
+<section class="h-100 gradient-custom-2">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center">
+        <div class="col col-lg-9 col-xl-8">
+          <div class="card">
+            <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
+              <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+                <img src="{% static 'app/images/biopic.jpg' %}" 
+                  alt="Generic placeholder image" 
+                  class="img-fluid img-thumbnail mt-1.5 mb-3" 
+                  style="width: 150px;">
+                <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-dark text-body" data-mdb-ripple-color="dark" style="z-index: 1;">
+                  Edit profile
+                </button>
+              </div>
+              <div class="ms-3" style="margin-top: 130px; color: white">
+                <h4 style="color: white;">Dao Thi Thanh Binh</h4>
+                <p>Pham Ngoc Thach University of Medicine</p>
+            </div>            
+            </div>
+            <div class="p-4 text-black bg-body-tertiary">
+              <div class="d-flex justify-content-end text-center py-1 text-body">
+                <div>
+                  <p class="mb-1 h5">10</p>
+                  <p class="small text-muted mb-0">Papers</p>
+                </div>
+                <div class="px-3">
+                  <p class="mb-1 h5">1026</p>
+                  <p class="small text-muted mb-0">Followers</p>
+                </div>
+                <div>
+                  <p class="mb-1 h5">478</p>
+                  <p class="small text-muted mb-0">Following</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-4 text-black">
+              <div class="mb-5  text-body">
+                <p class="lead fw-normal mb-1"><strong>About</strong></p>
+                <div class="p-4 bg-body-tertiary">
+                  <p class="font-italic mb-1" style="text-align: justify;">Dao Thi Thanh Binh has completed her PhD at the age of 36 years from Ho Chi Minh City University 
+                    of Medicine and Pharmacy, Viet Nam. She was the former Head of Cardiovascular department of Nguyen Trai hospital with nearly
+                     30 years of experience specializing in arrhythmia and cardiology. Following comprehensive faculty development training led 
+                     by Professors Hoi Ho and Ho Kim Tuyen from Texas Tech University Health Sciences Center El Paso, as part of a collaborative 
+                     educational program between the two institutions, she has chosen to immerse herself in medical education. She now serves as 
+                     the director of the Center for Medical Education as well as a senior lecturer of Cardiology at Pham Ngoc Thach University of 
+                     Medicine in Vietnam and General Secretary of Ho Chi Minh City Heart Rhythm Society.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mb-4 text-body">
+                <p class="lead fw-normal mb-0"><strong>Article Research</strong></p>
+                <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
+              </div>
+              <div class="row g-3">
+                <div class="row mb-3">
+                    <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TeB8xhQAAAAJ" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      1. Nghiên cứu mối tương quan giữa siêu âm động mạch cảnh ngoài sọ, động mạch đùi, với động mạch vành
+                    </a>
+                    <p style="color: black; opacity: 0.7;font-size: 15px">
+                      DTT Binh Journal Ho Chi Minh Medical, 104-108
+                    </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:UeHWp8X0CEIC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      2. Báo CÁO CA LÂM SÀNG: ÁP DỤNG THANG ĐIỂM ĐIỆN TÂM ĐỒ MỚI (NECGS) TRONG DỰ BÁO THUYÊN TẮC ĐỘNG MẠCH PHỔI CẤP
+                  </a>
+                    <p style="color: black; opacity: 0.7;font-size: 15px">
+                      ĐTT Bình, PM Tùng
+                      Tạp chí Y học Việt Nam 543 (1)
+                    </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:IjCSPb-OGe4C" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                       3. GIÁ TRỊ DỰ BÁO CỦA ST CHÊNH LÊN Ở CHUYỂN ĐẠO AVR ĐỐI VỚI BỆNH THÂN CHUNG ĐỘNG MẠCH VÀNH TRÁI HOẶC BỆNH BA NHÁNH MẠCH VÀNH TRÊN BỆNH NHÂN NHỒI MÁU CƠ TIM KHÔNG ST CHÊNH LÊN
+                  </a>
+                    <p style="color: black; opacity: 0.7;font-size: 15px">
+                      ĐTT Bình, NM Anh
+                      Tạp chí Y học Việt Nam 535 (2)
+                    </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:Tyk-4Ss8FVUC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      4. Are multiple-choice questions used in summative assessment of undergraduate medical students in Vietnam able to discriminate students with different levels?
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    DTTB Che Hoang Thai, Ngo Thi Thuy Dung, Nguyen Thanh Hiep
+                    MedEdPublish 2024, 14:114
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:zYLM7Y9cAGgC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      5. Use item response theory to enhance the quality of multiple-choice questions in summative assessment of undergraduate medical students in Vietnam
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    DTTB al
+                    MedEdPublish 2024, 14:142
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:u5HHmVD_uO8C" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      6. ĐỘ NẶNG CỦA BỆNH ĐỘNG MẠCH VÀNH Ở BỆNH NHÂN NHỒI MÁU CƠ TIM KHÔNG ST CHÊNH LÊN CÓ QRS PHÂN MẢNH
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    ĐTT Bình, TPT Loan
+                    Tạp chí Y học Việt Nam 532 (1B)
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:d1gkVwhDpl0C" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      7. Khảo sát tuân thủ điều trị và tiên lượng ngắn hạn ở bệnh nhân hội chứng động mạch vành cấp trên 65 tuổi được can thiệp động mạch vành qua da
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    TT Mai, ĐĐ Nguyễn, ĐA Nguyễn, TTB Đào
+                    Tạp chí Y học Việt Nam
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:qjMakFHDy7sC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      8. The association of carotid atherosclerosis and coronary lesion in angina patients
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    DTT Binh
+                    Journal of Practical Medicine, 54-57
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:2osOgNQ5qMEC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                     9. Carotid intima-media thickness ultrasonographic measurement and its relation to atherosclerotic risk factors in chest pain patients
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    DTT Binh
+                    Ho Chi Minh city Medical Association, 269-272
+                  </p>
+                </div>
+                <div class="row mb-3">
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TeB8xhQAAAAJ&citation_for_view=TeB8xhQAAAAJ:9yKSN-GCB0IC" class="w-100 rounded-3" target="_blank" style="display: inline-block; text-decoration: none; color:purple; font-size:18px">
+                      10. Correlation between carotid artery intima-media thickness measured by ultrasonography with atherosclerotic risk factors
+                  </a>
+                  <p style="color: black; opacity: 0.7;font-size: 15px">
+                    DTT Binh
+                    Journal Ho Chi Minh Medical, 104-108
+                  </p>
+                </div>
+        
+              </div>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock biography_content %}

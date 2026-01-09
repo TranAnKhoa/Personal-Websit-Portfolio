@@ -1,0 +1,59 @@
+{% extends "app/base.html" %}
+{%load static%}
+
+
+{% block purchase %}
+<script src="{% static 'app/js/purchase.js' %}"></script>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   QR Code Payment System
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Header Section -->
+  <header class="bg-dark text-white text-center p-4">
+   QR Code Payment System
+  </header>
+  <!-- QR Code Payment Form -->
+  <section class="container mt-5" id="qr-payment">
+   <div class="row justify-content-center">
+    <div class="col-md-6">
+     <h2>
+      Scan QR Code to Make Payment
+     </h2>
+     <div class="text-center" id="qrCodeContainer">
+        <img alt="QR Code" id="qrCode" 
+        src="{% static 'app/images/banner/myQR.jpg' %}" 
+        style="width: 500px; height: auto; max-width: 100%; object-fit: cover; display: block; margin: auto;">   
+     </div>
+
+	 <h3 class="mt-3" style="text-align: center;">
+		<strong> The total is {{order.get_cart_total|floatformat:0}} VND</strong>
+	 </h3>
+    
+     <p class="mt-3" style="color:red">
+        Đây là hệ thống nhận tiền thủ công nên vui lòng chờ trong giây lát, bạn có thể liên hệ trực tiếp qua phần contact để được duyệt nhanh hơn
+     </p>
+     <button class="btn btn-primary w-100" id="paymentButton">
+      Make Payment
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Bootstrap & jQuery JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+  <!-- QR Code Generator JS -->
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js">
+  </script>
+ </body>
+</html>
+<br><br><br><br><br><br>
+{% endblock purchase %}
