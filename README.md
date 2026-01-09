@@ -24,7 +24,8 @@ The platform serves a dual purpose:
 
 | Scientific Publications | Biography & details |
 | :---: | :---: |
-| ![Contact UI](https://github.com/user-attachments/assets/dd46b6b9-3d29-44b5-9ac0-4927a11b17df) | ![Bio UI](https://github.com/user-attachments/assets/315c185a-a05c-4ed4-96f5-daa9fd39809d) |
+| ![Contact UI](https://github.com/user-attachments/assets/dd46b6b9-3d29-44b5-9ac0-4927a11b17df) | ![Bio UI](![bio_edited](https://github.com/user-attachments/assets/5cb8abb7-cb2e-4ad8-9795-e7405a212248)
+) |
 
 
 ## 📺 Demo Video
